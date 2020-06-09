@@ -82,7 +82,7 @@ class DannNet(nn.Module):
              return class_outputs
 
 
-def dann_net(pretrained=False, progress=True, **kwargs):
+def create_dann_net(pretrained=False, progress=True, **kwargs):
     r"""AlexNet model architecture from the
     `"One weird trick..." <https://arxiv.org/abs/1404.5997>`_ paper.
     Args:
